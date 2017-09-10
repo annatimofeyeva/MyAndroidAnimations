@@ -18,4 +18,13 @@
         android:id="@+id/bart"
         tools:ignore="ContentDescription"
         android:onClick="fade" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/homer"
+        android:id="@+id/homer"
+        android:layout_alignParentBottom="true"
+        tools:ignore="ContentDescription"
+        android:alpha="0" />
 </RelativeLayout>
